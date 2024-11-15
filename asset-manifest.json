@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/attyre/static/css/main.c2afed15.css",
+    "main.js": "/attyre/static/js/main.9a93cb11.js",
+    "static/js/453.ed3810f9.chunk.js": "/attyre/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/attyre/index.html",
+    "main.c2afed15.css.map": "/attyre/static/css/main.c2afed15.css.map",
+    "main.9a93cb11.js.map": "/attyre/static/js/main.9a93cb11.js.map",
+    "453.ed3810f9.chunk.js.map": "/attyre/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2afed15.css",
+    "static/js/main.9a93cb11.js"
+  ]
+}
