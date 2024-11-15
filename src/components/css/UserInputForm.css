@@ -1,0 +1,111 @@
+.user-input-form {    
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+
+  .main{
+   
+    background-color: #F8F7F4; /* Light background color */
+    display: flex;
+    height: 660px;
+    
+  }
+
+  .form-container{
+    padding: 0% 25% 0%;
+    width: 100em;
+  }
+  
+  .color-swatch {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .color-selection{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  /* Hide the default file input */
+.file-input {
+    display: none; /* Hide the actual file input */
+  }
+  
+  /* Style the custom file upload button */
+  .custom-file-upload {
+    display: inline-block;
+    padding: 40px 20px;
+    font-size: 16px;
+    background-color: #ffff; /* Custom background color */
+    color: #f63d68;
+    border: 2px solid #000000;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for the button */
+  .custom-file-upload:hover {
+    color: #000000;
+    
+  }
+  
+  /* Style for the file input box */
+  .custom-file-upload input[type="file"] {
+    font-size: 16px; /* Control the font size */
+    padding: 8px; /* Padding for the input */
+  }
+  
+  /* Optional: Add a label or change the size based on custom needs */
+  .custom-file-upload {
+    width: 200px; /* Adjust width of the button */
+    height: 40px; /* Adjust height of the button */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .color-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .color-swatch {
+    
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 5px; 
+    /* Space between the swatch and the label */
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    text-align:left ;
+  }
+
+  .additional-fields{
+    padding: 2% 25% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .error-message {
+    color: #fff;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

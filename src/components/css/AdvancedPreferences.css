@@ -1,0 +1,71 @@
+.advanced-preferences {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 0% 25% 0%;
+    margin-top: 2em;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .options button {
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #ff6b6b;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .options button.selected {
+    background-color: #ff6b6b;
+    color: #fff;
+    border-color: #ff6b6b;
+  }
+  
+  .options button:hover {
+    background-color: #eee;
+  }
+  
+  
+  .generate-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .generate-button:hover {
+    background-color: #ff4b4b;
+  }
+  
